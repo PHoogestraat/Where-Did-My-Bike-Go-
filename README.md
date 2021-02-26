@@ -4,7 +4,7 @@
 
 # Can Bike theft be predicted?
 
-Between 2018 and 2008 4,960 bikes were stolen in Indianapolis according to public records (fig A). Additional data can be extracted to identify where and when bikes are taken in Marion county. After compling data from the 2018 to 2008 time period the following trends can be observed:
+Between 2018 and 2008,  almost 5 thousand bikes were stolen in Indianapolis according to public records (fig A). Additional data can be extracted to identify where and when bikes are taken in Marion county. After compling data from the 2018 to 2008 time period the following trends can be observed:
 
 - The months May through September have a significantly higher rate of theft then colder months. 
 - Bike theft reported is highest between 12:00 A.M. and 12 P.M 
