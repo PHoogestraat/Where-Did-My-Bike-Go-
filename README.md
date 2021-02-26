@@ -80,18 +80,27 @@ Analysis of each mode was conducted and reported below.
 
 |Model|Model Score|Training Score|
 |-----|-----------|--------------|
-|Random Forest  |0.89|1.0 |
-|SVC(GridSearh Score)|  0.88|0.89|
-|Neural Network|  0.88|N.A.|
+|Random Forest  |0.25|0.995 |
+|SVC(GridSearh Score)|  0.24|0.29|
+|Neural Network|  0.27|N.A.|
 
 
 Additional analysis of each mode was conducted. Precision data was also evaluated with respect to  koi_disposition ( Candidate, Confirmed, False Positive) for the Random Forest and SVC models. The coresponding values for the Neural Netwroks Score were not obtained. 
 
 |Model|koi disposition|Score|recall|f1-score|Support|
 |-----|---------------|-----|------|--------|-------|
-|Random Forest|False Positive|0.98|1.00|0.99|853|
-|SVC|False Positive|0.96|0.98|0.97|853|
-|Random Forest|Candidate|0.80|0.73|0.77|411|
-|SVC|Candidate|0.83|0.69|0.75|411|
+|Random Forest|Down Town|0.98|1.00|0.99|853|
+|SVC|Down Town|0.96|0.98|0.97|853|
+|Random Forest|Norht District|0.80|0.73|0.77|411|
+|SVC|Norht District|0.83|0.69|0.75|411|
 |Random Forest|Confirmed CANDIDATE|0.79|0.83| 0.81|484|
 |SVC|Confirmed CANDIDATE|0.78|0.86|0.82|484|
+
+|Model|IMPD District|Score|recall|f1-score|Support|
+|-------------|--|----|----|----|---|
+|Random Forest|DT|0.26|0.83|0.39|121|
+|Random Forest|ND|0.00|0.00|0.00|81|
+|Random Forest|NE|0.22|0.27|0.24|104|
+|Random Forest|NW|0.00|0.00|0.00|62|
+|Random Forest|SE|0.00|0.00|0.00|81|
+|Random Forest|SW|0.00|0.00|0.00|64|
