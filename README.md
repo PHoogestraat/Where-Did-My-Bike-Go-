@@ -72,10 +72,13 @@ Contrasting bike and car theft over the same period demonstrates a possible seas
 
 ### Data Preperation:
 Data was collected from the sources above in CSV format. UCR data was concatenated and reformatted. Dates and times were divided into separate features. Weather data was reformatted in a similar fashion. Data descriptions were updated. UCR and weather data was then joined into the following format listed below. 
+
+
 ![model_data_set.png](IMAGES/model_data_set.png)
 
 
 CRIME, weather description (Description) and District data were transformed employing one-hot encoding. Districts was selected as the output variable. An initial random forest model was applied to identify key features. Final features were determined by this data.
+
 
 |Rank|Signifigance|Feature|
 |----|------------|-------|
