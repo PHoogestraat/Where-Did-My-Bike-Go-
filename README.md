@@ -10,6 +10,11 @@ This trend holds up regardless of month or year. Can this information coupled wi
 
 ![Year_month.png](IMAGES/Year_month.png)
 
+##Bike theft during the 24 hour period.
+
+![bike_time_day.png](IMAGES/bike_time_day.png)
 
 Contrasting bike and car theft over the same period demonstrates a possible seasnol pattern that may be useful for modeling data. 
+
+
 ![comparison.png](IMAGES/comparison.png)
