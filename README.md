@@ -4,31 +4,31 @@
 
 # Can Bike theft be predicted?
 
-Between 2018 and 2008,  almost 5 thousand bikes were stolen across the six police districts of Indianapolis (fig A). Additional data can be extracted from public records to identify where (IMPD distirt) and when bikes are reported stolen in Marion county. After compiling bike theft data over a ten year time period (2018 to 2008) the following trends can be observed:
+Between 2008 and 2018 almost 5 thousand bikes were stolen across the six police districts of Indianapolis (fig A). Additional data can be extracted from public records to identify where (IMPD district) and when bikes are reported stolen in Marion county. After compiling bike theft data over a ten-year time period (2008 to 2018) the following trends can be observed:
 
 - May through September have a significantly higher rate of theft then colder months.
 - July has the highest reported theft regardless of year. 
 - Bike theft reported is highest between 12:00 A.M. and 12 P.M 
-- Consistent peak around 7:00 P.M. regardles of year or month.
+- Consistent peak around 7:00 P.M. regardless of year or month.
 
 
 ## Proposal:
-Can a model be constructed using date, time, and weather conditions  to predict which poice district of Indianapolis will have a higher risk for bike theft?
+Can a model be constructed using date, time, and weather conditions  to predict which police district of Indianapolis will have a higher risk for bike theft?
 
 
 ![Year_month.png](IMAGES/Year_month.png)
 
-### Bike theft during the 24 hour period (Data range 2018-2008).
+### Bike theft during the 24 hour period (Data range 2008-2018).
 
 ![bike_time_day.png](IMAGES/bike_time_day.png)
 
-Contrasting bike and car theft over the same period demonstrates a possible seasnal pattern that may be useful for modeling data. 
+Contrasting bike and car theft over the same period demonstrates a possible seasonal pattern that may be useful for modeling data.
 
 
 ![comparison.png](IMAGES/comparison.png)
 
-### Police Disticts of Indianapolis
-Down Town (DT-Red), Norht District (ND-Yellow), Norht East District (NE-Grey and olive. Two sections), North West District (NW-Purple), South East District (SE-Blue), and South West District (SW-Lime).
+### Police Districts of Indianapolis
+Down Town (DT-Red), North District (ND-Yellow), North East District (NE-Grey and olive. Two sections), North West District (NW-Purple), South East District (SE-Blue), and South West District (SW-Lime).
 
 ![map.png](IMAGES/map.png)
 
@@ -81,7 +81,7 @@ Down Town (DT-Red), Norht District (ND-Yellow), Norht East District (NE-Grey and
   
 ![kaggle.png](IMAGES/kaggle.png)
 
-# Data Preperation:
+# Data Preparation:
 Data was collected from the sources above in CSV format. UCR data was concatenated and reformatted. Dates and times were divided into separate features. Weather data was reformatted in a similar fashion. Data descriptions were updated. UCR and weather data was then joined into the following format listed below. 
 
 
@@ -107,7 +107,7 @@ CRIME, weather description (Description) and District data were transformed empl
 |12|0.038654|Bike Value|
 
 # Data Modeling:
-A Random Forest, SVC (with GridSearch), and Neural Network models were created to identify which police district of Indianaplis would most likey have a bike theft bassed on date, time, and weather conditions. Each model employed the primary dataset described above. In addition to the primary data set, an additional Random Forest model was created using the dataset generated from the MinMaxScaler. This model did not show a significant difference and was not reported.  The SVC model was optimized by using a rbf kernel. GridSearch was also employed to further tune the model. The optimized parameters were: C, 50, gamma, and 0.0005. The Neural Networks model employed Keras. A MinMaxScaler function was also used in preprocessing the data. Each model was saved under the prefix z#_  after completion.
+A Random Forest, SVC (with GridSearch), and Neural Network models were created to identify which police district of Indianapolis would most likely have a bike theft bassed on date, time, and weather conditions. Each model employed the primary dataset described above. In addition to the primary data set, an additional Random Forest model was created using the dataset generated from the MinMaxScaler. This model did not show a significant difference and was not reported.  The SVC model was optimized by using a rbf kernel. GridSearch was also employed to further tune the model. The optimized parameters were: C, 50, gamma, and 0.0005. The Neural Networks model employed Keras. A MinMaxScaler function was also used in preprocessing the data. Each model was saved under the prefix z#_  after completion.
 
 # Model Review
 Analysis of each model was conducted and reported below. 
@@ -119,7 +119,7 @@ Analysis of each model was conducted and reported below.
 |Neural Network|  0.27|N.A.|
 
 
-Additonal model data was also evaluated with respect to each Police district (Down Town (DT), Norht District (ND), Norht East District (NE), North West District (NW), South East District (SE), and South West District (SW)) for the Random Forest and SVC models. The coresponding values for the Neural Netwroks Score were not obtained. 
+Additional model data was also evaluated with respect to each Police district (Down Town (DT), North District (ND), North East District (NE), North West District (NW), South East District (SE), and South West District (SW)) for the Random Forest and SVC models. The corresponding values for the Neural Networks Score were not obtained.
 
 
 
