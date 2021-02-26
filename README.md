@@ -120,7 +120,7 @@ Analysis of each model was conducted and reported below.
 |Neural Network|  0.27|N.A.|
 
 
-Additional analysis of each model was conducted. Additonal testing data was also evaluated with respect to each Police district (Down Town (DT), Norht District (ND), Norht East District (NE), North West District (NW), South East District (SE), and South West District (SW)) for the Random Forest and SVC models. The coresponding values for the Neural Netwroks Score were not obtained. 
+Additonal model data was also evaluated with respect to each Police district (Down Town (DT), Norht District (ND), Norht East District (NE), North West District (NW), South East District (SE), and South West District (SW)) for the Random Forest and SVC models. The coresponding values for the Neural Netwroks Score were not obtained. 
 
 
 
