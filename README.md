@@ -13,7 +13,7 @@ Between 2018 and 2008,  almost 5 thousand bikes were stolen across the six polic
 - These trends are consisitent regardless of month or year. 
 
 
-### Proposal:
+## Proposal:
 Can a model be constructed using date, time, and weather conditions  to predict which poice district of Indianapolis will have a higher risk for bike theft?
 
 
@@ -39,7 +39,7 @@ Down Town (DT), Norht District (ND), Norht East District (NE), North West Distri
 
 
 
-### Process (in progress): 
+# Process (in progress): 
 - [ ] Concept design and project planning.
 - [ ] Create Github Repository.
 - [ ] Evaluate and obtain data sources.
@@ -56,7 +56,7 @@ Down Town (DT), Norht District (ND), Norht East District (NE), North West Distri
 
 
 
-### Resources (in progress):
+# Resources (in progress):
 -	HTML/CSS
 -	JavaScript
 -	JavaScript library
@@ -66,7 +66,7 @@ Down Town (DT), Norht District (ND), Norht East District (NE), North West Distri
 -	SQL lite
 -	Machine learning models(TBD)
 
-### Data Sources:
+# Data Sources:
 1. [IMPD_UCR_data](https://data.indy.gov/search?q=ucr&tags=ucr)
       
   OpenIndy host the data from Uniform Crime Report (UCR) program administered by the federal government in which crime statistics from across the country are reported to the FBI in a uniform manner based on crime definitions determined by the FBI. UCR Part 1 crime groups are murder, rape, robbery, aggravated assault, burglary, larceny, and vehicle theft.
@@ -82,7 +82,7 @@ Down Town (DT), Norht District (ND), Norht East District (NE), North West Distri
   
 ![kaggle.png](IMAGES/kaggle.png)
 
-### Data Preperation:
+# Data Preperation:
 Data was collected from the sources above in CSV format. UCR data was concatenated and reformatted. Dates and times were divided into separate features. Weather data was reformatted in a similar fashion. Data descriptions were updated. UCR and weather data was then joined into the following format listed below. 
 
 
@@ -107,10 +107,10 @@ CRIME, weather description (Description) and District data were transformed empl
 |11|0.054789|DATE_year|
 |12|0.038654|Bike Value|
 
-### Data Modeling:
+# Data Modeling:
 A Random Forest, SVC (with GridSearch), and Neural Network models were created to identify which police district of Indianaplis would most likey have a bike theft bassed on date, time, and weather conditions. Each model employed the primary dataset described above. In addition to the primary data set, an additional Random Forest model was created using the dataset generated from the MinMaxScaler. This model did not show a significant difference and was not reported.  The SVC model was optimized by using a rbf kernel. GridSearch was also employed to further tune the model. The optimized parameters were: C, 50, gamma, and 0.0005. The Neural Networks model employed Keras. A MinMaxScaler function was also used in preprocessing the data. Each model was saved under the prefix z#_  after completion.
 
-### Review
+# Review
 Analysis of each model was conducted and reported below. 
 
 |Model|Model Score|Training Score|
