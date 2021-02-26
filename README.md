@@ -85,11 +85,11 @@ Analysis of each mode was conducted and reported below.
 |Neural Network|  0.27|N.A.|
 
 
-Additional analysis of each model was conducted. Precision data was also evaluated with respect to each Police district (Down Town (DT), Norht District (ND), Norht East District (NE), North West District (NW), South East District (SE), and South West District (SW)) for the Random Forest and SVC models. The coresponding values for the Neural Netwroks Score were not obtained. 
+Additional analysis of each model was conducted. Additonal testing data was also evaluated with respect to each Police district (Down Town (DT), Norht District (ND), Norht East District (NE), North West District (NW), South East District (SE), and South West District (SW)) for the Random Forest and SVC models. The coresponding values for the Neural Netwroks Score were not obtained. 
 
 
 
-|Model|IMPD District|Score|recall|f1-score|Support|
+|Model|IMPD District|Precision|recall|f1-score|Support|
 |-------------|--|----|----|----|---|
 |Random Forest|DT|0.32|0.58|0.41|121|
 |Random Forest|ND|0.24|0.12|0.16| 81|
@@ -99,7 +99,7 @@ Additional analysis of each model was conducted. Precision data was also evaluat
 |Random Forest|SW|0.13|0.08| 0.10|64|
 
 
-|Model|IMPD District|Score|recall|f1-score|Support|
+|Model|IMPD District|Precision|recall|f1-score|Support|
 |-------------|--|----|----|----|---|
 |SVC|DT|0.26|0.83|0.39|121|
 |SVC|ND|0.00|0.00|0.00|81|
