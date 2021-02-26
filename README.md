@@ -30,7 +30,7 @@ Contrasting bike and car theft over the same period demonstrates a possible seas
 ### Police Disticts of Indianapolis
 Down Town (DT), Norht District (ND), Norht East District (NE), North West District (NW), South East District (SE), and South West District (SW)
 
-![Screenshot 2021-02-13 105015.png](IMAGES/Screenshot 2021-02-13 105015.png)
+![map.png](IMAGES/map.png)
 
 
 
