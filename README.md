@@ -51,3 +51,19 @@ Contrasting bike and car theft over the same period demonstrates a possible seas
 -	Python
 -	SQL
 -	SQL lite
+
+### Data Sources:
+1. [IMPD_UCR_data](https://data.indy.gov/search?q=ucr&tags=ucr)
+      
+  OpenIndy host the data from Uniform Crime Report (UCR) program administered by the federal government in which crime statistics from across the country are reported to the FBI in a uniform manner based on crime definitions determined by the FBI. UCR Part 1 crime groups are murder, rape, robbery, aggravated assault, burglary, larceny, and vehicle theft.
+        		
+	
+![UCR.png](images/UCR.png)
+	
+	
+	
+   2. [Kaggle: City weather](https://www.kaggle.com/selfishgene/historical-hourly-weather-data)
+      
+  Kaggle Data dataset containing ~5 years of high temporal resolution (hourly measurements) data of various weather attributes, such as temperature, humidity, air pressure, etc. This data is available for 30 US and Canadian Cities, as well as 6 Israeli cities.
+
+### Data Modeling:
