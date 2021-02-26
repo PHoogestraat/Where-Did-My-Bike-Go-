@@ -1,5 +1,5 @@
 
-# <div align = "center">Where-is-my-BIke </div>
+# <div align = "center">Where Did My Bike Go? </div>
 ![stolen_bike_art.png](IMAGES/stolen_bike_art.png)
 
 # Can Bike theft be predicted?
