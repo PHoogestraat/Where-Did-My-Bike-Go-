@@ -28,7 +28,7 @@ Contrasting bike and car theft over the same period demonstrates a possible seas
 ![comparison.png](IMAGES/comparison.png)
 
 ### Police Districts of Indianapolis
-Down Town (DT-Red), North District (ND-Yellow), North East District (NE-Grey and olive. Two sections), North West District (NW-Purple), South East District (SE-Blue), and South West District (SW-Lime).
+Downtown (DT-Red), North District (ND-Yellow), North East District (NE-Grey and olive. Two sections), North West District (NW-Purple), South East District (SE-Blue), and South West District (SW-Lime).
 
 ![map.png](IMAGES/map.png)
 
@@ -88,7 +88,7 @@ Data was collected from the sources above in CSV format. UCR data was concatenat
 ![model_data_set.png](IMAGES/model_data_set.png)
 
 
-CRIME, weather description (Description) and District data were transformed employing one-hot encoding. Districts was selected as the output variable. An initial random forest model was applied to identify key features. Final features were determined by this data.
+Data over a five year period was evaluated. CRIME, weather description (Description) and District data were transformed employing one-hot encoding. Districts was selected as the output variable. An initial random forest model was applied to identify key features. Final features were determined by this data.
 
 
 |Rank|Signifigance|Feature|
@@ -119,7 +119,7 @@ Analysis of each model was conducted and reported below.
 |Neural Network|  0.27|N.A.|
 
 
-Additional model data was also evaluated with respect to each Police district (Down Town (DT), North District (ND), North East District (NE), North West District (NW), South East District (SE), and South West District (SW)) for the Random Forest and SVC models. The corresponding values for the Neural Networks Score were not obtained.
+Additional model data was also evaluated with respect to each Police district (Downtown (DT), North District (ND), North East District (NE), North West District (NW), South East District (SE), and South West District (SW)) for the Random Forest and SVC models. The corresponding values for the Neural Networks Score were not obtained.
 
 
 
