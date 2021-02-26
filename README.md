@@ -141,3 +141,7 @@ Additional model data was also evaluated with respect to each Police district (D
 |SVC|NW|0.00|0.00|0.00|62|
 |SVC|SE|0.00|0.00|0.00|81|
 |SVC|SW|0.00|0.00|0.00|64|
+
+# Conclusion
+
+Modeling is inconclusive. Project requires additional considerations.
