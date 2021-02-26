@@ -11,6 +11,7 @@ Between 2018 and 2008,  almost 5 thousand bikes were stolen in Indianapolis acco
 - Consistent peak around 7:00 P.M.
 - These trends are consisitent regardless of month or year. 
 
+
 ### Proposal:
 Can a model be constructed using date, time, and weather conditions  to predict which poice district of Indianapolis will have a higher risk for bike theft?
 
@@ -69,4 +70,28 @@ Contrasting bike and car theft over the same period demonstrates a possible seas
   
 ![kaggle.png](IMAGES/kaggle.png)
 
+### Data Preperation:
+
 ### Data Modeling:
+A Random Forest, SVC (with GridSearch), and Neural Network models were created to identify exoplanets identified by the Kepler Space Observatory. Each model employed the primary dataset described above. In addition to the primary data set, an additional Random Forest model was created using the dataset generated from the MinMaxScaler. This model did not show a significant difference and was not reported.  The SVC model was optimized by using a rbf kernel. GridSearch was also employed to further tune the model. The optimized parameters were: C, 50, gamma, and 0.0005. The Neural Networks model employed Keras. A MinMaxScaler function was also used in preprocessing the data. Each model was saved under the prefix z#_  after completion.
+
+### Review
+Analysis of each mode was conducted and reported below. 
+
+|Model|Model Score|Training Score|
+|-----|-----------|--------------|
+|Random Forest  |0.89|1.0 |
+|SVC(GridSearh Score)|  0.88|0.89|
+|Neural Network|  0.88|N.A.|
+
+
+Additional analysis of each mode was conducted. Precision data was also evaluated with respect to  koi_disposition ( Candidate, Confirmed, False Positive) for the Random Forest and SVC models. The coresponding values for the Neural Netwroks Score were not obtained. 
+
+|Model|koi disposition|Score|recall|f1-score|Support|
+|-----|---------------|-----|------|--------|-------|
+|Random Forest|False Positive|0.98|1.00|0.99|853|
+|SVC|False Positive|0.96|0.98|0.97|853|
+|Random Forest|Candidate|0.80|0.73|0.77|411|
+|SVC|Candidate|0.83|0.69|0.75|411|
+|Random Forest|Confirmed CANDIDATE|0.79|0.83| 0.81|484|
+|SVC|Confirmed CANDIDATE|0.78|0.86|0.82|484|
