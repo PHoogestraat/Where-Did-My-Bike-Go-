@@ -2,7 +2,7 @@
 # <div align = "center">Where Did My Bike Go? </div>
 ![stolen_bike_art.png](IMAGES/stolen_bike_art.png)
 
-# Can Bike theft be predicted?
+# Can Bike Theft Be Predicted?
 
 Between 2008 and 2018 almost 5 thousand bikes were stolen across the six police districts of Indianapolis (fig A). Additional data can be extracted from public records to identify where (IMPD district) and when bikes are reported stolen in Marion county. After compiling bike theft data over a ten-year time period (2008 to 2018) the following trends can be observed:
 
