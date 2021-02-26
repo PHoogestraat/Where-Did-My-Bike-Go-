@@ -24,3 +24,6 @@ Contrasting bike and car theft over the same period demonstrates a possible seas
 
 
 ![comparison.png](IMAGES/comparison.png)
+-	Python
+-	SQL
+-	SQL lite
