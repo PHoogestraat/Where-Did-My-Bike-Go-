@@ -24,6 +24,20 @@ Contrasting bike and car theft over the same period demonstrates a possible seas
 
 
 ![comparison.png](IMAGES/comparison.png)
+
+
+
+
+
+
+
+
+
+### Resources:
+-	HTML/CSS
+-	JavaScript
+-	JavaScript library
+	-	[ECMAScript Internationalization API](https://402.ecma-international.org/1.0/) 		
 -	Python
 -	SQL
 -	SQL lite
