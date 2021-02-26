@@ -28,7 +28,7 @@ Contrasting bike and car theft over the same period demonstrates a possible seas
 ![comparison.png](IMAGES/comparison.png)
 
 ### Police Disticts of Indianapolis
-Down Town (DT-Red), Norht District (ND-Yellow), Norht East District (NE-Grey and lime), North West District (NW-Purple), South East District (SE-Blue), and South West District (SW-Green).
+Down Town (DT-Red), Norht District (ND-Yellow), Norht East District (NE-Grey and olive. Two sections), North West District (NW-Purple), South East District (SE-Blue), and South West District (SW-Lime).
 
 ![map.png](IMAGES/map.png)
 
