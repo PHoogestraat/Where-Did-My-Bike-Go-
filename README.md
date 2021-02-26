@@ -69,7 +69,7 @@ Down Town (DT), Norht District (ND), Norht East District (NE), North West Distri
 # Data Sources:
 1. [IMPD_UCR_data](https://data.indy.gov/search?q=ucr&tags=ucr)
       
-  [OpenIndy](https://data.indy.gov/) host the data from Uniform Crime Report (UCR) program administered by the federal government in which crime statistics from across the country are reported to the FBI in a uniform manner based on crime definitions determined by the FBI. UCR Part 1 crime groups are murder, rape, robbery, aggravated assault, burglary, larceny, and vehicle theft.
+  [OpenIndy](https://data.indy.gov/) host the data from Uniform Crime Report (UCR) program administered by the federal government in which crime statistics from across the country are reported to the FBI in a uniform manner based on crime definitions determined by the FBI.
         		
 	
 ![UCR.png](IMAGES/UCR.png)
