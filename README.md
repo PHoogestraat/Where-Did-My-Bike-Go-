@@ -27,16 +27,16 @@ Contrasting bike and car theft over the same period demonstrates a possible seas
 
 
 ### Process (in progress): 
-- [] Concept design and project planning.
-- [] Create Github Repository.
-- [] Evaluate and obtain data sources.
-- [] Create databases to archive data.
-  - [] Create SQL database
-  - [] Create SQL lite database
+- [ ] Concept design and project planning.
+- [ ] Create Github Repository.
+- [ ] Evaluate and obtain data sources.
+- [ ] Create databases to archive data.
+  - [ ] Create SQL database
+  - [ ] Create SQL lite database
   
-- [] Develop a Python Flask application to create API's enabling users to explore data. 
-- [] Generate a website with instructions for users to access API's and website content.
-- [] Design additional web pages containing analysis, charts, interactive experiences, and data allowing users to investigate correlations between team salaries and outcomes.
+- [ ] Develop a Python Flask application to create API's enabling users to explore data. 
+- [ ] Generate a website with instructions for users to access API's and website content.
+- [ ] Design additional web pages containing analysis, charts, interactive experiences, and data allowing users to investigate correlations between team salaries and outcomes.
 
 
 
