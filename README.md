@@ -9,5 +9,6 @@ Between 2018 and 2008 4,960 bikes were stolen in Indianapolis according to publi
 2018-2008 Bike Theft by year (fig A)
 ![bike_theft_annual.png](IMAGES/bike_theft_annual.png)
 
+
 2018-2008 Bike Theft by month (fig B)
 ![bike_theft_monthly.png](IMAGES/bike_theft_monthly.png)
