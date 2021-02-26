@@ -88,7 +88,7 @@ Data was collected from the sources above in CSV format. UCR data was concatenat
 ![model_data_set.png](IMAGES/model_data_set.png)
 
 
-Data over a five year period was evaluated. CRIME, weather description (Description) and District data were transformed employing one-hot encoding. Districts was selected as the output variable. An initial random forest model was applied to identify key features. Final features were determined by this data.
+Data over a five year period was evaluated (2012-2017). CRIME, weather description (Description) and District data were transformed employing one-hot encoding. Districts was selected as the output variable. An initial random forest model was applied to identify key features. Final features were determined by this data.
 
 
 |Rank|Signifigance|Feature|
