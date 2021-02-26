@@ -71,6 +71,26 @@ Contrasting bike and car theft over the same period demonstrates a possible seas
 ![kaggle.png](IMAGES/kaggle.png)
 
 ### Data Preperation:
+Data was collected from the sources above in CSV format. UCR data was concatenated and reformatted. Dates and times were divided into separate features. Weather data was reformatted in a similar fashion. Data descriptions were updated. UCR and weather data was then joined into the following format listed below. 
+![model_data_set.png](IMAGES/model_data_set.png)
+
+
+CRIME, weather description (Description) and District data were transformed employing one-hot encoding. Districts was selected as the output variable. An initial random forest model was applied to identify key features. Final features were determined by this data.
+
+|Rank|Signifigance|Feature|
+|----|------------|-------|
+|1|0.122947|Temp(K)|
+|2|0.111011|Humidity%|
+|3|0.104794|DATE_day|
+|4|0.100514|Pressure(atm)|
+|5|0.100086|Hour|
+|6|0.089126|DATE_week|
+|7|0.087968|Minute|
+|8|0.068030|wind|
+|9|0.067276|Description|
+|10|0.054805|DATE_month|
+|11|0.054789|DATE_year|
+|12|0.038654|Bike Value|
 
 ### Data Modeling:
 A Random Forest, SVC (with GridSearch), and Neural Network models were created to identify which police district of Indianaplis would most likey have a bike theft bassed on date, time, and weather conditions. Each model employed the primary dataset described above. In addition to the primary data set, an additional Random Forest model was created using the dataset generated from the MinMaxScaler. This model did not show a significant difference and was not reported.  The SVC model was optimized by using a rbf kernel. GridSearch was also employed to further tune the model. The optimized parameters were: C, 50, gamma, and 0.0005. The Neural Networks model employed Keras. A MinMaxScaler function was also used in preprocessing the data. Each model was saved under the prefix z#_  after completion.
