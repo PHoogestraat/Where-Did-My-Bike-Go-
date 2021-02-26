@@ -85,7 +85,7 @@ Analysis of each mode was conducted and reported below.
 |Neural Network|  0.27|N.A.|
 
 
-Additional analysis of each mode was conducted. Precision data was also evaluated with respect to  koi_disposition ( Candidate, Confirmed, False Positive) for the Random Forest and SVC models. The coresponding values for the Neural Netwroks Score were not obtained. 
+Additional analysis of each model was conducted. Precision data was also evaluated with respect to each Police district (Down Town (DT), Norht District (ND), Norht East District (NE), North West District (NW), South East District (SE), and South West District (SW)) for the Random Forest and SVC models. The coresponding values for the Neural Netwroks Score were not obtained. 
 
 
 
