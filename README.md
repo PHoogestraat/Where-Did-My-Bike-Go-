@@ -8,7 +8,7 @@ Between 2008 and 2018 almost 5 thousand bikes were stolen across the six police 
 
 - May through September have a significantly higher rate of theft then colder months.
 - July has the highest reported theft regardless of year. 
-- Bike theft reported is highest between 12:00 A.M. and 12 P.M 
+- Bike theft reported is highest between noon and midnight.
 - Consistent peak around 7:00 P.M. regardless of year or month.
 
 
