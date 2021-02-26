@@ -10,7 +10,7 @@ This trend holds up regardless of month or year. Can this information coupled wi
 
 ![Year_month.png](IMAGES/Year_month.png)
 
-##Bike theft during the 24 hour period (Data range 2018-2008).
+## Bike theft during the 24 hour period (Data range 2018-2008).
 
 ![bike_time_day.png](IMAGES/bike_time_day.png)
 
