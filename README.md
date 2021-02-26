@@ -20,7 +20,7 @@ Can this information coupled with weather data may enable the ability to identif
 
 ![bike_time_day.png](IMAGES/bike_time_day.png)
 
-Contrasting bike and car theft over the same period demonstrates a possible seasnol pattern that may be useful for modeling data. 
+Contrasting bike and car theft over the same period demonstrates a possible seasnal pattern that may be useful for modeling data. 
 
 
 ![comparison.png](IMAGES/comparison.png)
