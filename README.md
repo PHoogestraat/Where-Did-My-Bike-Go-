@@ -18,7 +18,7 @@ Can a model be constructed using date, time, and weather conditions  to predict 
 
 ![Year_month.png](IMAGES/Year_month.png)
 
-## Bike theft during the 24 hour period (Data range 2018-2008).
+### Bike theft during the 24 hour period (Data range 2018-2008).
 
 ![bike_time_day.png](IMAGES/bike_time_day.png)
 
@@ -26,6 +26,11 @@ Contrasting bike and car theft over the same period demonstrates a possible seas
 
 
 ![comparison.png](IMAGES/comparison.png)
+
+### Bike theft by district
+
+![bike_distict.png](IMAGES/bike_distict.png)
+
 
 
 ### Process (in progress): 
