@@ -65,5 +65,7 @@ Contrasting bike and car theft over the same period demonstrates a possible seas
    2. [Kaggle: City weather](https://www.kaggle.com/selfishgene/historical-hourly-weather-data)
       
   Kaggle Data dataset containing ~5 years of high temporal resolution (hourly measurements) data of various weather attributes, such as temperature, humidity, air pressure, etc. This data is available for 30 US and Canadian Cities, as well as 6 Israeli cities.
+  
+![kaggle.png](images/kaggle.png)
 
 ### Data Modeling:
