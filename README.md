@@ -147,8 +147,8 @@ Modeling is inconclusive. Weather data was only considered over a five-year peri
 
 # Additional Refrences
 ### Graphs (Tableau)
-* [Indy Bike Theft Trends(Tableau)](https://public.tableau.com/profile/paul.hoogestraat#!/vizhome/INDY_Bike_theft/Final)
-* [Indy Car Theft Trends(Tableau)](https://public.tableau.com/profile/paul.hoogestraat#!/vizhome/INDY_Car_theft/Final)
+* [2008-2018 Indy Bike Theft Trends (Tableau)](https://public.tableau.com/profile/paul.hoogestraat#!/vizhome/INDY_Bike_theft/Final)
+* [2008-2018 Indy Car Theft Trends(Tableau)](https://public.tableau.com/profile/paul.hoogestraat#!/vizhome/INDY_Car_theft/Final)
 
 ### Data Sources
 * [IMPD_UCR_data](https://data.indy.gov/search?q=ucr&tags=ucr)
