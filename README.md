@@ -58,8 +58,7 @@ Downtown (DT-Red), North District (ND-Yellow), North East District (NE-Grey and 
 # Resources (in progress):
 -	HTML/CSS
 -	JavaScript
--	JavaScript library
-	-	[ECMAScript Internationalization API](https://402.ecma-international.org/1.0/) 		
+-	Tableau	
 -	Python
 -	SQL
 -	SQL lite
