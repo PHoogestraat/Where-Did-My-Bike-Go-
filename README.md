@@ -145,3 +145,8 @@ Additional model data was also evaluated with respect to each Police district (D
 # Conclusion
 
 Modeling is inconclusive. Project requires additional considerations.
+
+# Additonal Refrences
+### Graphs (Tableau)
+* [Bike Theft Trends(Tableau)](https://public.tableau.com/profile/paul.hoogestraat#!/vizhome/INDY_Bike_theft/Final?publish=yes)
+
