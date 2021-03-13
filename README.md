@@ -143,9 +143,12 @@ Additional model data was also evaluated with respect to each Police district (D
 
 # Conclusion
 
-Modeling is inconclusive. Project requires additional considerations.
+Modeling is inconclusive. Project requires additional considerations. This is a work in progress.
 
 # Additional Refrences
 ### Graphs (Tableau)
 * [Bike Theft Trends(Tableau)](https://public.tableau.com/profile/paul.hoogestraat#!/vizhome/INDY_Bike_theft/Final?publish=yes)
 
+### Data Sources
+* [IMPD_UCR_data](https://data.indy.gov/search?q=ucr&tags=ucr)
+* [Kaggle: City weather](https://www.kaggle.com/selfishgene/historical-hourly-weather-data)
