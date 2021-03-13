@@ -143,7 +143,7 @@ Additional model data was also evaluated with respect to each Police district (D
 
 # Conclusion
 
-Modeling is inconclusive. Project requires additional considerations. This is a work in progress.
+Modeling is inconclusive. Weather data was only considered over a five-year period. Having data for a ten year period may increase accuracy of the model. Project requires additional considerations. This is a work in progress.
 
 # Additional Refrences
 ### Graphs (Tableau)
